@@ -1,0 +1,21 @@
+<app-sidebar></app-sidebar> 
+<app-navbar [name]="navTab"></app-navbar>
+
+<div class="container">
+    <div class="row">
+        <app-epreuvelist-component (event)="receiveEvent('1')" class="col-xl-2 col-lg-6" [tab]="epreuveList" [nameTab]="epreuveListName">
+        </app-epreuvelist-component>
+
+        <app-epreuvelist-component *ngIf="showComp.showSp" (event)="receiveEvent('2')" class="col-xl-2 col-lg-6" [tab]="spList" [nameTab]="spName" >
+        </app-epreuvelist-component>
+        <app-epreuvelist-component *ngIf="showComp.showSj" (event)="receiveEvent('3')" class="col-xl-4 col-lg-8" [tab]="sujetList" [nameTab]="sujetName" [showDate]="true"> 
+        </app-epreuvelist-component>
+        <app-epreuvelist-component *ngIf="showComp.showSer" (event)="receiveEvent('4')" class="col-xl-2 col-lg-2" [tab]="serieList" [nameTab]="serieName" [showDate]="true" [serie]="true">
+        </app-epreuvelist-component>
+        <app-epreuvelist-component *ngIf="showComp.showFac" (event)="receiveEvent('5')" class="col-xl-2 col-lg-2" [tab]="facList" [nameTab]="facName" [fac]="true" >
+        </app-epreuvelist-component>
+    </div>
+    <div class="row-fluid mt-3" *ngIf="showComp.final">
+        <app-start-question-component class="containerP"></app-start-question-component>
+    </div>
+</div>

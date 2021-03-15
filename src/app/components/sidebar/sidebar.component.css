@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #f3f5f9;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  width: 70px;
+  height: 100%;
+  background: #283e53;
+  justify-content: center;
+}
+
+.text-muted {
+  color: #adb5bd !important;
+}
+
+.sidebar ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar ul li a fa-icon {
+  color: white !important;
+}
+
+.sidebar ul li:hover {
+  background: #131e2765;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: none;
+}
+li.disabled {
+  height: 4rem;
+}
+#logo
+{
+    writing-mode: vertical-lr; 
+    transform: rotate(360deg);
+    font-weight: 800;
+    font-size: 22px;
+    color: #223546;
+}

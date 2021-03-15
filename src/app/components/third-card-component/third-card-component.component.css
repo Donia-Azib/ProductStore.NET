@@ -1,0 +1,56 @@
+a i{
+    font-size: 30px;
+    color: white;
+}
+td button i{
+    color: white;
+    font-size: 15px;
+}
+a:hover,
+button:hover {
+  text-decoration: none;
+  background-color: #131e2765;
+  border: none;
+}
+.card-deck .card{
+    background-color: #7252ED;
+    height: 80px;
+    text-align: start;
+}
+.list-inline-item h6,
+.list-inline-item p{
+    color: white;
+}
+
+.card-deck .card .card-body{
+    padding: 0;
+    padding-left: 20px;
+}
+
+.card-table{
+    background-color: #283E53;
+}
+div .card{
+    background-color: #213445;
+}
+.card-table .card-body{
+    padding: 0;
+}
+.table,
+.table-bordered td{
+    border: 1px solid #213445;
+    color: white;
+    font-size: 12px;
+}
+.tab-1{
+    background-color: #314A60;
+}
+td button{
+    white-space: nowrap;
+}
+.btn-group-sm>.btn{
+    font-size: 9px;
+    color: white;
+    border: 1px solid #213445;
+    background-color: #314A60;
+}

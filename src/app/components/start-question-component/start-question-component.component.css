@@ -1,0 +1,26 @@
+a {
+  background-color: #283e53;
+  color: white;
+  cursor: pointer;
+}
+
+
+a.disabled{
+  background-color: #314A60;
+}
+.list-group-item-action.disabled{
+  background-color: #283E53;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+a.active{
+  background-color: #7252ED;
+}
+a:hover,
+.active {
+  text-decoration: none;
+  color: white;
+  border: none;
+}
