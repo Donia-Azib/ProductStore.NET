@@ -1,0 +1,15 @@
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\PS.Service.deps.json
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\PS.Service.dll
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\ref\PS.Service.dll
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\PS.Service.pdb
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\PS.Domain.dll
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\bin\Debug\net6.0\PS.Domain.pdb
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.csproj.CopyComplete
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.dll
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\ref\PS.Service.dll
+C:\Users\lenovo\source\repos\ProductStore\PS.Service\obj\Debug\net6.0\PS.Service.pdb

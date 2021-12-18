@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PS.GUI/1.0.0": {
+        "dependencies": {
+          "PS.Domain": "1.0.0",
+          "PS.Service": "1.0.0"
+        },
+        "runtime": {
+          "PS.GUI.dll": {}
+        }
+      },
+      "PS.Domain/1.0.0": {
+        "runtime": {
+          "PS.Domain.dll": {}
+        }
+      },
+      "PS.Service/1.0.0": {
+        "dependencies": {
+          "PS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PS.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PS.GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PS.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
